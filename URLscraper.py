@@ -21,7 +21,6 @@ def no_iterations(url, urls_found_set, firsturl):
 
 
 def get_html_of(url):
-    print(url)#debug
     webpage = requests.get(url)#, verify=False)
     reqStatus = webpage.status_code
     DecodeURL = webpage.content.decode()
