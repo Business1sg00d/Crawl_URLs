@@ -15,7 +15,9 @@ pip install bs4 requests
 
 Usage:
 ------
+```
 python URLscraper.py https://nmap.org 3     <--- Where 3 is the number for desired crawldepth
+```
 
 May need to "touch crawl.txt"
 
